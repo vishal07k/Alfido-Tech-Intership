@@ -1,0 +1,9 @@
+package com.lms.exception;
+
+public class InputMismatchException extends Exception{
+
+	public InputMismatchException(String message) {
+		super(message);
+	}
+
+}
